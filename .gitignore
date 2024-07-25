@@ -1,2 +1,4 @@
 # Specify filepatterns you want git to ignore.
 custom/
+*synctex.gz
+*.log
