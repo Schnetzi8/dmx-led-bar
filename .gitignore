@@ -1,4 +1,9 @@
 # Specify filepatterns you want git to ignore.
 custom/
+KiCad/SerialToDmx-backups/
+KiCad/*.stl
+KiCad/*.step
+KiCad/*.stp
 *synctex.gz
 *.log
+*.lck
