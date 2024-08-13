@@ -1,0 +1,1453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\robin\git\dmx-led-bar\KiCad\SerialToDmx.kicad_sch</source>
+    <date>8/13/2024 10:31:44 AM</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SerialToDmx.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uC</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>375ba227-5cbe-41a7-b64a-32aa81928753</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4005</value>
+      <footprint>Diode_SMD:D_0402_1005Metric</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Diode" part="1N4005" description="600V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="600V 1A General Purpose Rectifier Diode, DO-41"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32cc08c0-d150-49ed-a499-a9596730b431</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Lateral_P18.80x5.00mm_D1.17mm_Horizontal</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e2ca0d3-736c-4aa1-b240-8538e90f5a72</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cdbfa65-99f3-4ddb-bf65-5c103bd15553</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41131eda-fb87-468e-b151-93f96cd4b55a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4a07ba8-3a26-4aaf-a0b8-0507f92661ca</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58ba3e86-43a8-4fe2-ae16-2ce83e733153</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae360e57-60ab-4b95-961b-1658630c9238</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52d05285-fb2e-410a-97dd-c8cedbf6b02b</tstamps>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50abaedf-b651-4606-b588-ed00ad44b254</tstamps>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba074c61-b56e-4514-886b-391caa62285e</tstamps>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74d3685e-3d55-4ce5-b956-fd5865d563e2</tstamps>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0504e3a9-658e-4e5a-a863-17f006517993</tstamps>
+    </comp>
+    <comp ref="H11">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42be170c-a1a6-4a91-8660-8e9bdb016bbe</tstamps>
+    </comp>
+    <comp ref="H12">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d64b0158-6f8a-43b2-863a-8bab35e4b27e</tstamps>
+    </comp>
+    <comp ref="H13">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ef482a9-47a6-4681-8ca4-990f2eec933a</tstamps>
+    </comp>
+    <comp ref="H14">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a41ad7b-9af2-4141-aa99-d6f07706295c</tstamps>
+    </comp>
+    <comp ref="H15">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78bacf4f-d28e-4323-9735-ce65084d908b</tstamps>
+    </comp>
+    <comp ref="H16">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69b915dc-b265-499c-84d3-6db26d9e9134</tstamps>
+    </comp>
+    <comp ref="H17">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28f3bf81-0ac5-4cec-9523-4730b08e7fa6</tstamps>
+    </comp>
+    <comp ref="H18">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>688c78e5-cf8c-4077-913c-106f4401d1f5</tstamps>
+    </comp>
+    <comp ref="H19">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3433c91f-c15e-4e56-a243-90304818e4b6</tstamps>
+    </comp>
+    <comp ref="H20">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bfb5706-bfd2-48de-9906-3026e14d57d0</tstamps>
+    </comp>
+    <comp ref="H21">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67081e55-f608-4b47-86e3-2147726aeab4</tstamps>
+    </comp>
+    <comp ref="H22">
+      <value>Mousebite</value>
+      <footprint>Panelization:mouse-bite-2mm-slot</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dcdbeef0-a111-450a-b0fd-dc60275d513d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>NAC3MPXXA</value>
+      <footprint>NeutrikCustom:NAC3MPXXA</footprint>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/PX0580/PC/Bulgin/view-part/?ref=eda</field>
+        <field name="Description">
+Power Inlet;IEC 320-1;PC Flange Rear Mount;6.3mm Tab;Black;15A, 250VAC (UL/CSA) | Bulgin PX0580/PC
+</field>
+        <field name="DigiKey_Part_Number">708-1341-ND</field>
+        <field name="MF">Bulgin</field>
+        <field name="MP">PX0580/PC</field>
+        <field name="Package">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/PX0580/PC/Bulgin/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="NeutrikCustom" part="NAC3MPXXA" description=""/>
+      <property name="DigiKey_Part_Number" value="708-1341-ND"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/PX0580/PC/Bulgin/view-part/?ref=snap"/>
+      <property name="Description" value="&#xA;Power Inlet;IEC 320-1;PC Flange Rear Mount;6.3mm Tab;Black;15A, 250VAC (UL/CSA) | Bulgin PX0580/PC&#xA;"/>
+      <property name="MF" value="Bulgin"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/PX0580/PC/Bulgin/view-part/?ref=eda"/>
+      <property name="MP" value="PX0580/PC"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d55f0a46-21c7-4500-acb3-df4148b5bb6f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>NAC3MPXXB</value>
+      <footprint>NeutrikCustom:NAC3MPXXB</footprint>
+      <fields>
+        <field name="MANUFACTURER">Bulgin</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">30.4 mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="NeutrikCustom" part="NAC3MPXXB" description=""/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="30.4 mm"/>
+      <property name="MANUFACTURER" value="Bulgin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3fe6b90c-b28b-43df-accd-f22baae744a1</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>NC3FAV</value>
+      <footprint>NeutrikCustom:NC3FAV</footprint>
+      <datasheet>https://www.neutrik.com/en/product/nc3fav</datasheet>
+      <libsource lib="Connector_Audio" part="NC3FAV" description="A Series, 3 pole female XLR receptacle, grounding: without ground / shell contact, vertical PCB mount"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="A Series, 3 pole female XLR receptacle, grounding: without ground / shell contact, vertical PCB mount"/>
+      <property name="ki_keywords" value="xlr connector neutrik"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bb5d5a9-3f46-422e-bca6-39d7b67b0ff1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>NC3MAV</value>
+      <footprint>NeutrikCustom:NC3MAV</footprint>
+      <datasheet>https://www.neutrik.com/en/product/nc3mav</datasheet>
+      <libsource lib="Connector_Audio" part="NC3MAV" description="A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount"/>
+      <property name="ki_keywords" value="xlr connector neutrik"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df5870f9-1cb8-4706-abea-39a1c802f4df</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>NC4FAV</value>
+      <footprint>NeutrikCustom:NC4FAV</footprint>
+      <datasheet>https://www.neutrik.com/en/product/nc4fav</datasheet>
+      <libsource lib="Connector_Audio" part="NC4FAV" description="A Series, 4 pole female XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="A Series, 4 pole female XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount"/>
+      <property name="ki_keywords" value="xlr connector neutrik"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0ad3d21-909d-48ce-94fa-d055084e334d</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08_Socket</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_socket</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a947d0cb-b95b-4033-a558-71a5dc7b4353</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x08_Socket</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_socket</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6aecc02d-5c99-41bb-b22a-50145fdb77ce</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_pin</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35662e36-02ac-46d5-a9a9-a558c61692f2</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_pin</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe8302f1-97fc-499d-b907-14d6edc9c8bb</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_pin</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fea8d077-1d11-4727-8eb3-56375c508b7e</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x08_Pin</value>
+      <footprint>Connector_Faston_Custom:Faston_01x08_pin</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Pin" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>977bf740-95c4-4937-89dc-e0db7a863a1c</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>IRM-45-12</value>
+      <footprint>IRM-45-12:CONV_IRM-45-12</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=eda</field>
+        <field name="Description">
+Power Supply, AC-DC, 45W,12V/ 3.8A Miniature Encapsulated Type | MEAN WELL IRM-45-12
+</field>
+        <field name="MANUFACTURER">MEAN WELL</field>
+        <field name="MF">MEAN WELL</field>
+        <field name="MP">IRM-45-12</field>
+        <field name="PARTREV">NA</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=391249&amp;manufacturer=MEAN WELL&amp;part_name=IRM-45-12&amp;search_term=None</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="IRM-45-12" part="IRM-45-12" description=""/>
+      <property name="MF" value="MEAN WELL"/>
+      <property name="Description" value="&#xA;Power Supply, AC-DC, 45W,12V/ 3.8A Miniature Encapsulated Type | MEAN WELL IRM-45-12&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=eda"/>
+      <property name="STANDARD" value="MANUFACTURER RECOMMENDATIONS"/>
+      <property name="PARTREV" value="NA"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=snap"/>
+      <property name="MP" value="IRM-45-12"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=391249&amp;manufacturer=MEAN WELL&amp;part_name=IRM-45-12&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="MEAN WELL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e890e01c-798f-4c86-b6b2-dfb5cedf3ef8</tstamps>
+    </comp>
+    <comp ref="PS2">
+      <value>R-78E5.0-0.5</value>
+      <footprint>CONV_R-78E5.0-0.5:CONV_R-78E5.0-0.5</footprint>
+      <fields>
+        <field name="MANUFACTURER">RECOM</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.40mm</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="R-78E5.0-0.5" part="R-78E5.0-0.5" description=""/>
+      <property name="PARTREV" value="4"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.40mm"/>
+      <property name="MANUFACTURER" value="RECOM"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de164a7b-6c95-4ebc-aef8-b44c4d75ebc8</tstamps>
+    </comp>
+    <comp ref="PS3">
+      <value>TEA1-0505</value>
+      <footprint>TracoCustom:CONV_TEA_1-0505</footprint>
+      <datasheet>https://www.tracopower.com/products/tea1.pdf</datasheet>
+      <libsource lib="Converter_DCDC" part="TEA1-0505" description="1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4"/>
+      <property name="ki_keywords" value="Traco isolated isolation dc-dc converter not-regulated non-regulated single 1W"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e788f190-9a19-46b1-b9ea-dc8a4050bf49</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ee14b2b-18e0-4cb2-8bc1-8af5762f19b6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>169R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f51d564e-aea9-4494-8046-d895bdb394ca</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>169R</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72eccdd8-ab12-4609-a1f6-392803434c34</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100mR</value>
+      <footprint>Resistor_SMD:R_2816_7142Metric_Pad3.20x4.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e66ff62-13ff-408e-9c3d-a8e3f6b2dd1b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10kR</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94eeca2b-010f-42a0-b2bd-15ced3ec85d4</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>Thermistor_PTC</value>
+      <footprint>Package_SON:Texas_DPY0002A_0.6x1mm_P0.65mm</footprint>
+      <libsource lib="Device" part="Thermistor_PTC" description="Temperature dependent resistor, positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Temperature dependent resistor, positive temperature coefficient"/>
+      <property name="ki_keywords" value="resistor PTC thermistor sensor RTD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aeac921-9aac-455f-a59b-ce333e7c5faa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SN74LV1T34DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="SN74LV1T34DBV" description="Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_description" value="Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"/>
+      <property name="ki_keywords" value="single buffer level shift"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9075aeb4-843c-4285-83f0-1187cef5e9b1</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ISOM8710DFFR</value>
+      <footprint>TICustom:ISOM8710</footprint>
+      <datasheet>ISOM8710DFFR</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda</field>
+        <field name="Description">
+Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead
+</field>
+        <field name="MANUFACTURER">Toshina Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.3mm</field>
+        <field name="MF">Toshiba Semiconductor</field>
+        <field name="MP">TLP2366(V4-TPL,E</field>
+        <field name="PARTREV">6</field>
+        <field name="Package">SO-6 Toshiba</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ISOM8710" part="ISOM8710DFFR" description=""/>
+      <property name="MF" value="Toshiba Semiconductor"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.3mm"/>
+      <property name="Package" value="SO-6 Toshiba"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap"/>
+      <property name="MP" value="TLP2366(V4-TPL,E"/>
+      <property name="Description" value="&#xA;Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Toshina Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_keywords" value="ISOM8710DFFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91e2d7d8-2d69-4409-94e1-d54a6eb499b3</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>XIAO ESP32 C3</value>
+      <footprint>Seeed Studio XIAO Series Library:XIAO-Generic-Thruhole-14P-2.54-21X17.8MM</footprint>
+      <fields>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="XIAO_ESP32_C3" part="113991054" description=""/>
+      <property name="PARTREV" value="23/05/2022"/>
+      <property name="MANUFACTURER" value="Seeed Technology"/>
+      <property name="SNAPEDA_PN" value="113991054"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="N/A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67189608-583c-45db-baaa-4bf887c69b3b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ISOM8710DFFR</value>
+      <footprint>TICustom:ISOM8710</footprint>
+      <datasheet>ISOM8710DFFR</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda</field>
+        <field name="Description">
+Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead
+</field>
+        <field name="MANUFACTURER">Toshina Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.3mm</field>
+        <field name="MF">Toshiba Semiconductor</field>
+        <field name="MP">TLP2366(V4-TPL,E</field>
+        <field name="PARTREV">6</field>
+        <field name="Package">SO-6 Toshiba</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ISOM8710" part="ISOM8710DFFR" description=""/>
+      <property name="MF" value="Toshiba Semiconductor"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.3mm"/>
+      <property name="Package" value="SO-6 Toshiba"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap"/>
+      <property name="MP" value="TLP2366(V4-TPL,E"/>
+      <property name="Description" value="&#xA;Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Toshina Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_keywords" value="ISOM8710DFFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34fbf5d0-ab19-4101-a7c7-6e9737cdc1fd</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>THVD1512DGS</value>
+      <footprint>TICustom:DGS0010A_N</footprint>
+      <datasheet>THVD1512DGS</datasheet>
+      <libsource lib="TICustom" part="THVD1512DGS" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_keywords" value="THVD1512DGS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac7b671f-ae5a-4946-92d0-e20ba6317462</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>ISOM8710DFFR</value>
+      <footprint>TICustom:ISOM8710</footprint>
+      <datasheet>ISOM8710DFFR</datasheet>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda</field>
+        <field name="Description">
+Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead
+</field>
+        <field name="MANUFACTURER">Toshina Semiconductor</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">2.3mm</field>
+        <field name="MF">Toshiba Semiconductor</field>
+        <field name="MP">TLP2366(V4-TPL,E</field>
+        <field name="PARTREV">6</field>
+        <field name="Package">SO-6 Toshiba</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ISOM8710" part="ISOM8710DFFR" description=""/>
+      <property name="MF" value="Toshiba Semiconductor"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="2.3mm"/>
+      <property name="Package" value="SO-6 Toshiba"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="6"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TLP2366(V4-TPL,E/Toshiba+Semiconductor+and+Storage/view-part/?ref=snap"/>
+      <property name="MP" value="TLP2366(V4-TPL,E"/>
+      <property name="Description" value="&#xA;Logic Output Optoisolator 20MBd Push-Pull, Totem Pole 3750Vrms 1 Channel 20kV/µs CMTI 6-SO, 5 Lead&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="Toshina Semiconductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="SerialToDmx.kicad_sch"/>
+      <property name="ki_keywords" value="ISOM8710DFFR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1aa98ee-227e-4e4b-92d2-e42ca6ca7f73</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Pin">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Socket">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="NC3FAV">
+      <description>A Series, 3 pole female XLR receptacle, grounding: without ground / shell contact, vertical PCB mount</description>
+      <docs>https://www.neutrik.com/en/product/nc3fav</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NC3FAV</field>
+        <field name="Footprint">Connector_Audio:Jack_XLR_Neutrik_NC3FAV_Vertical</field>
+        <field name="Datasheet">https://www.neutrik.com/en/product/nc3fav</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="NC3MAV">
+      <description>A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount</description>
+      <docs>https://www.neutrik.com/en/product/nc3mav</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NC3MAV</field>
+        <field name="Footprint">Connector_Audio:Jack_XLR_Neutrik_NC3MAV_Vertical</field>
+        <field name="Datasheet">https://www.neutrik.com/en/product/nc3mav</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="G" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="NC4FAV">
+      <description>A Series, 4 pole female XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, vertical PCB mount</description>
+      <docs>https://www.neutrik.com/en/product/nc4fav</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NC4FAV</field>
+        <field name="Footprint">Connector_Audio:Jack_XLR_Neutrik_NC4FAV_Vertical</field>
+        <field name="Datasheet">https://www.neutrik.com/en/product/nc4fav</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="G" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Converter_DCDC" part="TEA1-0505">
+      <description>1W DC/DC converter unregulated, 4.5-5.5V input, 5V output voltage, 200mA output, 1.5kVDC isolation, SIP-4</description>
+      <docs>https://www.tracopower.com/products/tea1.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*TRACO*TEA1*THT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TEA1-0505</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_TRACO_TEA1-xxxx_THT</field>
+        <field name="Datasheet">https://www.tracopower.com/products/tea1.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-Vin" type="power_in"/>
+        <pin num="2" name="+Vin" type="power_in"/>
+        <pin num="3" name="-Vout" type="power_out"/>
+        <pin num="4" name="+Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_PTC">
+      <description>Temperature dependent resistor, positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*PTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_PTC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4005">
+      <description>600V 1A General Purpose Rectifier Diode, DO-41</description>
+      <docs>http://www.vishay.com/docs/88503/1n4001.pdf</docs>
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4005</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/88503/1n4001.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="IRM-45-12" part="IRM-45-12">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">IRM-45-12</field>
+        <field name="Footprint">IRM-45-12:CONV_IRM-45-12</field>
+        <field name="MF">MEAN WELL</field>
+        <field name="Description">
+Power Supply, AC-DC, 45W,12V/ 3.8A Miniature Encapsulated Type | MEAN WELL IRM-45-12
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=eda</field>
+        <field name="STANDARD">MANUFACTURER RECOMMENDATIONS</field>
+        <field name="PARTREV">NA</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/IRM-45-12/MEAN+WELL+USA+Inc./view-part/?ref=snap</field>
+        <field name="MP">IRM-45-12</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=391249&amp;manufacturer=MEAN WELL&amp;part_name=IRM-45-12&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">MEAN WELL</field>
+      </fields>
+      <pins>
+        <pin num="+V" name="+V" type="output"/>
+        <pin num="-V" name="-V" type="output"/>
+        <pin num="AC/L" name="AC/L" type="input"/>
+        <pin num="AC/N" name="AC/N" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="ISOM8710" part="ISOM8710DFFR">
+      <docs>ISOM8710DFFR</docs>
+      <footprints>
+        <fp>DFF0005A-C01-MFG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ISOM8710DFFR</field>
+        <field name="Footprint">DFF0005A-C01-MFG</field>
+        <field name="Datasheet">ISOM8710DFFR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AN" type="unspecified"/>
+        <pin num="2" name="CAT" type="unspecified"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="OUT" type="power_in"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="SN74LV1T34DBV">
+      <description>Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LV1T34DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NeutrikCustom" part="NAC3MPXXA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NAC3MPXXA</field>
+      </fields>
+      <pins>
+        <pin num="G" name="" type="power_out"/>
+        <pin num="L" name="" type="power_out"/>
+        <pin num="N" name="" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="NeutrikCustom" part="NAC3MPXXB">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NAC3MPXXB</field>
+        <field name="Footprint">Neutrik Custom:NAC3MPXXB</field>
+      </fields>
+      <pins>
+        <pin num="G" name="" type="power_in"/>
+        <pin num="L" name="" type="power_in"/>
+        <pin num="N" name="" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="R-78E5.0-0.5" part="R-78E5.0-0.5">
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">R-78E5.0-0.5</field>
+        <field name="Footprint">R-78E5.0-0.5:CONV_R-78E5.0-0.5</field>
+        <field name="PARTREV">4</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.40mm</field>
+        <field name="MANUFACTURER">RECOM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="+VOUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="TICustom" part="THVD1512DGS">
+      <docs>THVD1512DGS</docs>
+      <footprints>
+        <fp>DGS0010A_N</fp>
+        <fp>DGS0010A_M</fp>
+        <fp>DGS0010A_L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">THVD1512DGS</field>
+        <field name="Footprint">DGS0010A_N</field>
+        <field name="Datasheet">THVD1512DGS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="RE_N" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Y" type="output"/>
+        <pin num="7" name="Z" type="output"/>
+        <pin num="8" name="B" type="input"/>
+        <pin num="9" name="A" type="input"/>
+        <pin num="10" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="XIAO_ESP32_C3" part="113991054">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">113991054</field>
+        <field name="Footprint">113991054:MODULE_113991054</field>
+        <field name="PARTREV">23/05/2022</field>
+        <field name="MANUFACTURER">Seeed Technology</field>
+        <field name="SNAPEDA_PN">113991054</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D0" type="bidirectional"/>
+        <pin num="2" name="D1" type="bidirectional"/>
+        <pin num="3" name="D2" type="bidirectional"/>
+        <pin num="4" name="D3" type="bidirectional"/>
+        <pin num="5" name="D4" type="bidirectional"/>
+        <pin num="6" name="D5" type="bidirectional"/>
+        <pin num="7" name="TX_D6" type="bidirectional"/>
+        <pin num="8" name="RX_D7" type="bidirectional"/>
+        <pin num="9" name="D8" type="bidirectional"/>
+        <pin num="10" name="D9" type="bidirectional"/>
+        <pin num="11" name="D10" type="bidirectional"/>
+        <pin num="12" name="VCC_3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="VUSB" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Audio">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Converter_DCDC">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Converter_DCDC.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="IRM-45-12">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/IRM-45-12.kicad_sym</uri>
+    </library>
+    <library logical="ISOM8710">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/ISOM8710.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="NeutrikCustom">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/NeutrikCustom.kicad_sym</uri>
+    </library>
+    <library logical="R-78E5.0-0.5">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/R-78E5.0-0.5.kicad_sym</uri>
+    </library>
+    <library logical="TICustom">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/TICustom.kicad_sym</uri>
+    </library>
+    <library logical="XIAO_ESP32_C3">
+      <uri>C:/Users/robin/Tech/KiCad/7.0/symbols/XIAO_ESP32_C3.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="12" pinfunction="VCC_3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="5V">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="PS2" pin="3" pinfunction="+VOUT" pintype="output"/>
+      <node ref="PS3" pin="2" pinfunction="+Vin" pintype="power_in"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="12V">
+      <node ref="J5" pin="4" pintype="passive"/>
+      <node ref="PS1" pin="+V" pinfunction="+V" pintype="output"/>
+      <node ref="PS2" pin="1" pinfunction="+VIN" pintype="input"/>
+    </net>
+    <net code="4" name="DMX+">
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="J4" pin="3" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="Y" pintype="output"/>
+      <node ref="U5" pin="9" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="5" name="DMX-">
+      <node ref="J3" pin="2" pintype="passive"/>
+      <node ref="J4" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="Z" pintype="output"/>
+      <node ref="U5" pin="8" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="6" name="DMX_DRIVE">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="D0" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="DMX_RX">
+      <node ref="U2" pin="4" pinfunction="OUT" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="DMX_TX">
+      <node ref="U3" pin="3" pinfunction="D2" pintype="bidirectional"/>
+      <node ref="U6" pin="2" pinfunction="CAT" pintype="unspecified"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="G" pintype="power_out"/>
+      <node ref="J2" pin="G" pintype="power_in"/>
+      <node ref="J4" pin="G" pintype="passive"/>
+      <node ref="J5" pin="1" pintype="passive"/>
+      <node ref="J5" pin="G" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="PS1" pin="-V" pinfunction="-V" pintype="output"/>
+      <node ref="PS2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="PS3" pin="1" pinfunction="-Vin" pintype="power_in"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="AN" pintype="unspecified"/>
+    </net>
+    <net code="10" name="GND-Connection-Bridge">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="11" name="GND-Connection-In-Termination">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="GND-Connection-Out-Termination">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="13" name="GND_Iso">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="PS3" pin="3" pinfunction="-Vout" pintype="power_out"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="RE_N" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="14" name="L">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="15" name="L-Connection-Bridge">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="16" name="L-Connection-Termination">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="17" name="L-Fused">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="PS1" pin="AC/L" pinfunction="AC/L" pintype="input"/>
+    </net>
+    <net code="18" name="L-switched">
+      <node ref="J1" pin="L" pintype="power_out"/>
+      <node ref="J2" pin="L" pintype="power_in"/>
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="19" name="LED-Current-Sensor">
+      <node ref="J5" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LED_DATA_33">
+      <node ref="U1" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="LED_DATA_50">
+      <node ref="J5" pin="3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="Y" pintype="output"/>
+    </net>
+    <net code="22" name="N">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="PS1" pin="AC/N" pinfunction="AC/N" pintype="input"/>
+    </net>
+    <net code="23" name="N-Connection-Bridge">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="24" name="N-Connection-Termination">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="25" name="N-switched">
+      <node ref="J1" pin="N" pintype="power_out"/>
+      <node ref="J2" pin="N" pintype="power_in"/>
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="VUSB" pintype="power_in"/>
+    </net>
+    <net code="27" name="Net-(J10-Pin_1)">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(J10-Pin_2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(J10-Pin_3)">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(U2-CAT)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="CAT" pintype="unspecified"/>
+    </net>
+    <net code="31" name="Net-(U4-CAT)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="CAT" pintype="unspecified"/>
+    </net>
+    <net code="32" name="Net-(U4-OUT)">
+      <node ref="U4" pin="4" pinfunction="OUT" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(U5-D)">
+      <node ref="U5" pin="4" pinfunction="D" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="OUT" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(U5-R)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="R" pintype="output"/>
+    </net>
+    <net code="35" name="Net-(U6-AN)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="AN" pintype="unspecified"/>
+    </net>
+    <net code="36" name="Temperature Sensor">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TH1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="VCC_Iso">
+      <node ref="PS3" pin="4" pinfunction="+Vout" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="AN" pintype="unspecified"/>
+      <node ref="U4" pin="5" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="38" name="unconnected-(J7-Pin_6-Pad6)">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J7-Pin_8-Pad8)">
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J8-Pin_1-Pad1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J8-Pin_2-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J8-Pin_3-Pad3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J9-Pin_1-Pad1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J9-Pin_2-Pad2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(J9-Pin_3-Pad3)">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(J9-Pin_5-Pad5)">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(J9-Pin_6-Pad6)">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(J9-Pin_7-Pad7)">
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(J9-Pin_8-Pad8)">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(J10-Pin_6-Pad6)">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J10-Pin_8-Pad8)">
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J11-Pin_6-Pad6)">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J11-Pin_8-Pad8)">
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-NC-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3-D8-Pad9)">
+      <node ref="U3" pin="9" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3-D9-Pad10)">
+      <node ref="U3" pin="10" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-D10-Pad11)">
+      <node ref="U3" pin="11" pinfunction="D10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-RX_D7-Pad8)">
+      <node ref="U3" pin="8" pinfunction="RX_D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-TX_D6-Pad7)">
+      <node ref="U3" pin="7" pinfunction="TX_D6" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>
